@@ -41,3 +41,6 @@ The instructions for this mini project are divided into the following subsection
  - The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
+
+# Results
+
