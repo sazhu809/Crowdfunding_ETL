@@ -47,7 +47,7 @@ The instructions for this mini project are divided into the following subsection
 
 2. Use the information from the ERD to create a table schema for each CSV file.
 
-#### Note: Remember to specify the data types, primary keys, foreign keys, and other constraints.
+**Note:** Remember to specify the data types, primary keys, foreign keys, and other constraints.
 
 3. Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
 
