@@ -63,7 +63,10 @@ The instructions for this mini project are divided into the following subsection
 
 # Results
 ## Create the Contacts DataFrame
-Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
+Code for "Create the Contact DataFrame" can be found in the link below
+https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/ETL_Mini_Project_Starter_MGutieruiz_YZhu.ipynb
+
+Task one: Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 
  - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
  - A "category" column that contains only the category titles
@@ -72,7 +75,7 @@ Extract and transform the crowdfunding.xlsx Excel data to create a category Data
 
 Figure 1 displays the category DataFrame with the "category_id" and the "category" columns.
 
-Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
+Task two: Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 
  - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
  - A "subcategory" column that contains only the subcategory titles
