@@ -42,6 +42,27 @@ The instructions for this mini project are divided into the following subsection
 
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
+## Create the Contacts DataFrame
+Choose one of the following two options for extracting and transforming the data from the contacts.xlsx Excel data:
+
+Option 1: Use Python dictionary methods.
+
+Option 2: Use regular expressions.
+
+If you chose Option 1, complete the following steps:
+
+1.Import the contacts.xlsx file into a DataFrame.
+
+2. Iterate through the DataFrame, converting each row to a dictionary.
+
+4. Iterate through each dictionary, doing the following:
+
+- Extract the dictionary values from the keys by using a Python list comprehension.
+- Add the values for each row to a new list.
+- Create a new DataFrame that contains the extracted data.
+- Split each "name" column value into a first and last name, and place each in a new column.
+- Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
+
 ## Create the Crowdfunding Database
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
 
@@ -109,3 +130,30 @@ Task Three: Extract and transform the crowdfunding.xlsx Excel data to create a c
 ![category_df](https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/Results/unwanted_column_drop.png)
 
 Figure 3 displays the campaign DataFrame cleaned.
+
+## Create the Crowdfunding Database
+
+For this section, we completed option one to complete the tasks. Code for "Create the Crowdfunding Database" can be found in the link below
+https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/ETL_Mini_Project_Starter_MGutieruiz_YZhu.ipynb
+
+Option 1, complete the following steps:
+
+1.Import the contacts.xlsx file into a DataFrame.
+
+![category_df](https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/Results/print_keys.png)
+
+Figure 4 displays the imported DataFrame
+
+2. Iterate through the DataFrame, converting each row to a dictionary.
+
+4. Iterate through each dictionary, doing the following:
+
+- Extract the dictionary values from the keys by using a Python list comprehension.
+- Add the values for each row to a new list.
+- Create a new DataFrame that contains the extracted data.
+- Split each "name" column value into a first and last name, and place each in a new column.
+
+![category_df](https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/Results/reorder_data.png)
+
+Figure 5 displays the final DataFrame reordered and cleaned.
+5. Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
