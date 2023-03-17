@@ -138,7 +138,7 @@ Figure 3 displays the campaign DataFrame cleaned.
 For this section, we completed option one to complete the tasks. Code for "Create the Crowdfunding Database" can be found in the link below
 https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/ETL_Mini_Project_Starter_MGutieruiz_YZhu.ipynb
 
-Option 1, complete the following steps:
+Task four: Option 1, complete the following steps:
 
 1.Import the contacts.xlsx file into a DataFrame.
 
@@ -161,12 +161,13 @@ Figure 5 displays the final DataFrame reordered and cleaned.
 5. Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
 
 ## Create the Crowdfunding Database
-1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
+Task Five: Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
 
 ![Crowdfunding_schema](https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Crowdfunding_schema.png)
 
 Figure 6 is a sketched ERD of the tables using QuickDBD.
 
+Task 6:
 2. Use the information from the ERD to create a table schema for each CSV file.
 
 **Note:** Remember to specify the data types, primary keys, foreign keys, and other constraints.
