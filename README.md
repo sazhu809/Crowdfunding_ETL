@@ -62,4 +62,23 @@ The instructions for this mini project are divided into the following subsection
 8. Verify that each table has the correct data by running a SELECT statement for each.
 
 # Results
+## Create the Contacts DataFrame
+1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 
+ - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
+ - A "category" column that contains only the category titles
+
+![category_df](https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/Results/category_df.png)
+
+Figure 1 displays the category DataFrame with the "category_id" and the "category" columns.
+
+2. Export the category DataFrame as category.csv and save it to your GitHub repository.
+
+3. Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
+
+ - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+ - A "subcategory" column that contains only the subcategory titles
+
+4. Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
+
+## Create the Campaign DataFrame
