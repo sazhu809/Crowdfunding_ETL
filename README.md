@@ -86,3 +86,26 @@ Figure 2 displays the subcategory DataFrame with the "subcategory_id" and the "s
 
 
 ## Create the Campaign DataFrame
+Code for "Create the Campaign DataFrame" can be found in the link below
+https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/ETL_Mini_Project_Starter_MGutieruiz_YZhu.ipynb
+
+Task Three: Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
+
+ - The "cf_id" column
+ - The "contact_id" column
+ - The "company_name" column
+ - The "blurb" column, renamed to "description"
+ - The "goal" column, converted to the float data type
+ - The "pledged" column, converted to the float data type
+ - The "outcome" column
+ - The "backers_count" column
+ - The "country" column
+ - The "currency" column
+ - The "launched_at" column, renamed to "launch_date" and with the UTC times converted to the datetime format
+ - The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
+ - The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
+ - The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
+
+![category_df](https://github.com/sazhu809/Project2_Crowdfunding_ETL/blob/main/Project_files/Results/unwanted_column_drop.png)
+
+Figure 3 displays the campaign DataFrame cleaned.
