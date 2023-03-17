@@ -168,6 +168,7 @@ Task Five: Inspect the four CSV files, and then sketch an ERD of the tables by u
 Figure 6 is a sketched ERD of the tables using QuickDBD.
 
 Task 6:
+
 2. Use the information from the ERD to create a table schema for each CSV file.
 
 **Note:** Remember to specify the data types, primary keys, foreign keys, and other constraints.
