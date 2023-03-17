@@ -1,5 +1,4 @@
 # Crowdfunding_ETL
-## Project Two
 ## Yingyu Zhu and Madeline Gutieruiz 
 
 # Instructions
